@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.step-box{
+  width: 300px;
+  position: relative;
+  padding: 10px;
+  margin: 0 15px;
+  background-color: #eeeeee;
+}
+
+.step-image{
+  width: 280px;
+  height: 150px;
+}
+
+.step-tag{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: #ff9a4b;
+}
+
+.step-heading{
+}
+
+.step-text{
+  margin: 5px;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
